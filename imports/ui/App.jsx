@@ -6,6 +6,8 @@ import { TaskForm } from './TaskForm';
 import { useState, Fragment } from 'react';
 import { LoginForm } from './LoginForm';
 
+
+
 /* const multidelete = ({_id, isChecked}) => {
   if (isChecked===true) {
     TasksCollection.delete(_id)  
@@ -70,7 +72,7 @@ export const App = () => {
           <>
             <nav className="navigation">
               <div className="user" onClick={logout}>
-                Sair
+              Sair
               </div>
 
             </nav>
@@ -87,7 +89,7 @@ export const App = () => {
               <button onClick={() => setHideCompleted(!hideCompleted)}>
                 {hideCompleted ? 'Mostrar todas as tarefas' : 'Esconder tarefas feitas'}
               </button>
-            { /*   <button onClick={() => multidelete}>
+            {/* /*   <button onClick={() => multidelete}>
                 Deletar multiplas tarefas
               </button> */ }
             </div>

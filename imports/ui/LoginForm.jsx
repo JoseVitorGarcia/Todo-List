@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import React, { useState } from 'react';
-import { UsersCollection } from '/imports/api/Collection';
+
 import { Accounts } from 'meteor/accounts-base';
 
 export const LoginForm = () => {
