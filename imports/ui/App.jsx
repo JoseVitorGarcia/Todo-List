@@ -79,7 +79,7 @@ export const App = () => {
             <TaskForm user={user} />
             <div className="filter">
               <button onClick={() => setHideCompleted(!hideCompleted)}>
-                {hideCompleted ? 'Mostrar todas' : 'Esconder tarefas feitas'}
+                {hideCompleted ? 'Mostrar todas as tarefas' : 'Esconder tarefas feitas'}
               </button>
             </div>
 
