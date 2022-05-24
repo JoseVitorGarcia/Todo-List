@@ -8,12 +8,7 @@ import { LoginForm } from './LoginForm';
 
 
 
-/* const multidelete = ({_id, isChecked}) => {
-  if (isChecked===true) {
-    TasksCollection.delete(_id)  
-  }
-  
-} */
+
 
 const toggleChecked = ({ _id, isChecked }) => {
   TasksCollection.update(_id, {
@@ -89,9 +84,7 @@ export const App = () => {
               <button onClick={() => setHideCompleted(!hideCompleted)}>
                 {hideCompleted ? 'Mostrar todas as tarefas' : 'Esconder tarefas feitas'}
               </button>
-            {/* /*   <button onClick={() => multidelete}>
-                Deletar multiplas tarefas
-              </button> */ }
+           
             </div>
 
             <ul className="tasks">
